@@ -8,7 +8,6 @@ def text_to_speech(text: str, lang: str = "en", voice: str = "female") -> bytes:
         return b""
 
     client = texttospeech.TextToSpeechClient()
-
     synthesis_input = texttospeech.SynthesisInput(text=text)
 
     voice_params = texttospeech.VoiceSelectionParams(
@@ -17,7 +16,6 @@ def text_to_speech(text: str, lang: str = "en", voice: str = "female") -> bytes:
     )
 
     audio_config = texttospeech.AudioConfig(audio_encoding=texttospeech.AudioEncoding.MP3)
-
     response = client.synthesize_speech(
         input=synthesis_input, voice=voice_params, audio_config=audio_config
     )
