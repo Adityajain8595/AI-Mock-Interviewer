@@ -19,6 +19,8 @@ By leveraging advanced AI technologies, it helps candidates:
 - Improve communication and interview skills
 - Build confidence through repeated practice
 
+**[Live Demo](https://career-sarthi-nine.vercel.app/mock-interview)** @ CareerSarthi platform we built for GenAI Exchange Hackathon 2025
+
 ---
 
 ## 👾 Features
@@ -174,14 +176,6 @@ Access the application at:
         └── vite.config.js     # Vite configuration
 ```
 
-## 🔰 Contributing
-
-We welcome contributions to AI Mock Interviewer! Here's how you can help:
-
-- **💬 [Join the Discussions](#)**: Share ideas and feedback
-- **🐛 [Report Issues](#)**: Submit bugs found or log feature requests
-- **💡 [Submit Pull Requests](#)**: Review open PRs, and submit your own
-
 <details closed>
 <summary>Contributing Guidelines</summary>
 
@@ -215,4 +209,3 @@ Special thanks to:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----" 
